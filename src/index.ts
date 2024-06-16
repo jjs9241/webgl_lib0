@@ -1,5 +1,4 @@
-import {newId} from './utils/idUtil'
+import { newId } from "./utils/idUtil";
+import { newCanvas } from "./utils/canvasUtil";
 
-// console.log(newId('hi'))
-
-export { newId };
+export { newId, newCanvas };

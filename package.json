@@ -2,12 +2,13 @@
   "name": "webgl_lib0",
   "version": "1.0.0",
   "description": "Framework Agnostic WebGL lib",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "ts-node src",
-    "build": "tsc"
+    "build": "tsc && cp package.json dist/",
+    "start:react": "cd examples/react && npm run start"
   },
   "author": "",
   "license": "ISC",
